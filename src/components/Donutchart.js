@@ -27,14 +27,14 @@ return (
     <Chart
       data={data}
       type="donut"
-      width={230}
-      height={ 230}
+      width={200}
+      height={ 200}
     >
       <PieSeries valueField="value" 
         argumentField="argument" 
         innerRadius={0.6} 
         />
-      <Title text="Wheel Of Opportunities"/>
+      <Title text="Wheel Of Opportunities" />
     </Chart>
   
 );

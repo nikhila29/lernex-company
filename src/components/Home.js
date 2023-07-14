@@ -16,13 +16,13 @@ export const Home = () => {
           <div className='name'>Ayaat khanna</div>
           <div className='role'>UI/UX Designer</div>
           <div className='followers'><i class="fa-solid fa-user-group"></i> 21k Followers 43 Following</div>
-          <div>Make my profile visible to employers <i class="fa-solid fa-toggle-on"></i></div>
-          <div>Your profile Career goals will appear when search our database for candidates</div>
+          <div className='toggle'>Make my profile visible to employers <i class="fa-solid fa-toggle-on"></i></div>
+          <div className='data'>Your profile Career goals will appear when search our database for candidates</div>
           <div className='links'>
             <h4>Online Links</h4>
             <i class="fa-solid fa-plus"></i>
           </div>
-          <div>Add your online portfolio links to increase your profile strngth</div>
+          <div className='portfolio'>Add your online portfolio links to increase your profile strngth</div>
           <div className='dropbox'>
             <i class="fa-brands fa-dropbox"></i>
             <i class="fa-brands fa-dropbox"></i>

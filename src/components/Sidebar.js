@@ -6,84 +6,84 @@ const Sidebar = () => {
     <ul>
         <li>
           <span className="sicon" >s</span>
-          <span className='spehre'>spehre</span>
+          <span className='spehre' style={{position:'relative',left:'10px'}}>spehre</span>
         </li>
 
         <li>
-          <li>
+          <li style={{position:'relative',top:'20px'}}>
             <i class="fa-solid fa-house"></i>
-            <span>Home</span>
+            <span style={{position:'relative',left:'10px'}}>Home</span>
           </li>
-          <li>
+          <li style={{position:'relative',top:'30px'}}>
             <i class="fa-regular fa-envelope-open"></i>
-            <span>Job Invites</span>
+            <span style={{position:'relative',left:'10px'}}>Job Invites</span>
           </li>
-          <li>
+          <li style={{position:'relative',top:'40px'}}>
             <i class="fa-solid fa-chart-simple"></i>
-            <span>Analytics</span>
+            <span style={{position:'relative',left:'10px'}}>Analytics</span>
           </li>
-          <li>
+          <li style={{position:'relative',top:'50px'}}>
             <i class="fa-solid fa-user"></i>
-            <span>My Profile</span>
+            <span style={{position:'relative',left:'10px'}}>My Profile</span>
           </li>
-          <li>
+          <li style={{position:'relative',top:'60px'}}>
             <i class="fa-brands fa-internet-explorer"></i>
-            <span>Explore</span>
+            <span style={{position:'relative',left:'10px'}}>Explore</span>
           </li>
         </li>
 
-        <li>
+        <li style={{position:'relative',top:'70px'}}>
           <h5>Communities Feed</h5>
-          <li style={{display:"flex"}}>
+          <li style={{display:"flex", position:'relative', top:'10px'}}>
             <i class="fa-solid fa-cannabis"></i>
-            <li style={{display:"grid"}}>
+            <div style={{display:"grid"}}>
               <span>Indonesia UI Designer</span>
               <span>734 members</span>
-            </li>
+            </div>
           </li>
-          <li style={{display:"flex"}}>
+          <li style={{display:"flex",position:'relative', top:'20px'}}>
             <i class="fa-solid fa-cannabis"></i>
-            <li style={{display:"grid"}}>
+            <div style={{display:"grid"}}>
               <span>Indonesia UI Designer</span>
               <span>734 members</span>
-            </li>
+            </div>
           </li>
 
-          <li style={{display:"flex"}}>
+          <li style={{display:"flex", position:'relative', top:'30px'}}>
             <i class="fa-solid fa-cannabis"></i>
-            <li style={{display:"grid"}}>
+            <div style={{display:"grid"}}>
               <span>Indonesia UX Resea...</span>
               <span>734 members</span>
-            </li>
+            </div>
           </li>
 
-          <li style={{display:"flex"}}>
+          <li style={{display:"flex", position:'relative', top:'40px'}}>
             <i class="fa-solid fa-cannabis"></i>
-            <li style={{display:"grid"}}>
+            <div style={{display:"grid"}}>
               <span>Prototyping Club </span>
               <span>734 members</span>
-            </li>
+            </div>
           </li>
 
-          <span>show 5 more <i class="fa-solid fa-chevron-right"></i></span>
+          <span style={{position:'relative', top:'50px'}}>show 5 more <i class="fa-solid fa-chevron-right"></i></span>
         </li>
 
-        <li>
-          <li>
+        <li style={{position:'relative',top:'150px'}}>
+          <div>
             <span>About</span>
             <span>Accessibility</span>
             <span>Help</span>
-          </li>
-          <li>
+          </div>
+          <div>
             <span>Privacy & Terms</span>
             <span>Advertise</span>
             <span>more</span>
-          </li>
-          <li>
+          </div>
+          <div>
             <span>spehre.io</span>
             <span>c</span>
             <span>2023</span>
-          </li>
+          </div>
         </li>
     </ul>
   )
